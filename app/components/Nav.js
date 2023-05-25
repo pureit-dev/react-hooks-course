@@ -10,7 +10,7 @@ export default function Nav() {
 	const { theme, toggleTheme } = React.useContext(ThemeContext);
 	return (
 		<div>
-			{({ theme, toggleTheme }) => (
+			
 				<nav className='row space-between'>
 					<ul className='row nav'>
 						<li>
@@ -41,7 +41,7 @@ export default function Nav() {
 						{theme === 'light' ? '🔦' : '💡'}
 					</button>
 				</nav>
-			)}
+			
 		</div>
 	);
 }
